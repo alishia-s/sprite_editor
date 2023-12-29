@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Palette</class>
+ <widget class="QWidget" name="Palette">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>194</width>
+    <height>256</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="Border">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>194</width>
+     <height>256</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(38, 39, 40);
+border-style: solid;
+border-width: 2px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="customColorLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>130</y>
+     <width>194</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Custom Colors</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="defaultColorLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>194</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Default Colors</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="orangeButton">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>87</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="customColor_8">
+   <property name="geometry">
+    <rect>
+     <x>81</x>
+     <y>204</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="customColor_2">
+   <property name="geometry">
+    <rect>
+     <x>46</x>
+     <y>163</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="customColor_9">
+   <property name="geometry">
+    <rect>
+     <x>116</x>
+     <y>204</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="whiteButton">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>39</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="customColor_3">
+   <property name="geometry">
+    <rect>
+     <x>81</x>
+     <y>163</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="yellowButton">
+   <property name="geometry">
+    <rect>
+     <x>46</x>
+     <y>39</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="greenButton">
+   <property name="geometry">
+    <rect>
+     <x>46</x>
+     <y>87</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="customColor_1">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>163</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="customColor_4">
+   <property name="geometry">
+    <rect>
+     <x>116</x>
+     <y>163</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="customColor_10">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>204</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pinkButton">
+   <property name="geometry">
+    <rect>
+     <x>116</x>
+     <y>39</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="blueButton">
+   <property name="geometry">
+    <rect>
+     <x>81</x>
+     <y>39</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 255);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="purpleButton">
+   <property name="geometry">
+    <rect>
+     <x>81</x>
+     <y>87</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(127, 0, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="customColor_6">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>204</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="grayButton">
+   <property name="geometry">
+    <rect>
+     <x>116</x>
+     <y>87</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(128, 128, 128);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="customColor_5">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>163</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="redButton">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>39</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="customColor_7">
+   <property name="geometry">
+    <rect>
+     <x>46</x>
+     <y>204</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="blackButton">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>87</y>
+     <width>29</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

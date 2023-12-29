@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>eraser.png</file>
+        <file>eraserCursor.png</file>
+        <file>pen.png</file>
+        <file>penCursor.png</file>
+        <file>grid8x8.png</file>
+        <file>grid16x16.png</file>
+        <file>grid32x32.png</file>
+        <file>gridCancelIcon.png</file>
+        <file>gridIcon.png</file>
+        <file>color-circle.png</file>
+        <file>dry-clean.png</file>
+        <file>rectangular-shape-outline.png</file>
+        <file>mouse.png</file>
+        <file>overlayCancelIcon.png</file>
+        <file>overlayIcon.png</file>
+        <file>broom.png</file>
+        <file>playPausePreviewBtn.png</file>
+        <file>cursor.png</file>
+        <file>broomCursor.png</file>
+    </qresource>
+    <qresource prefix="/sounds"/>
+</RCC>
